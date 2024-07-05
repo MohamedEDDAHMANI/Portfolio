@@ -37,7 +37,7 @@ const about = () => {
           </div>
         </div>
         <div className=" w-[100%] md:w-[60%]  h-full ">
-          <p className='text-[13px] first-letter:uppercase p-[20px]'>Une brève description contenant les informations nécessaires afin de me connaitre de point de vue plus proche, ainsi qu'avoir une idée globale sur mon cursus académique et professionnel, avec les competences techniques.</p>
+          <p className='text-[13px] first-letter:uppercase p-[20px]'>Une brève description contenant les informations nécessaires afin de me connaitre de point de vue plus proche, ainsi qu&apos;avoir une idée globale sur mon cursus académique et professionnel, avec les competences techniques.</p>
           <div className='w-full grid grid-cols-2 gap-6 '>
             <span className='flex items-center '>
               <BsArrowReturnRight className='mr-[5px] text-accent text-[20px] ' />
@@ -66,7 +66,7 @@ const about = () => {
               <p className='  text-[12px] font-bold'>Freelance: <span className='inline text-xxs'>Disponible</span></p>
             </span>
           </div>
-          <p className='text-[13px] first-letter:uppercase first-line-padding-[20px] p-[20px] pt-[45px]'>Alors, Je suis Mohamed EDDAHMANI, j&apos;ai 25 ans, et je suis actuellement développeur full stack. Au cours du parcours académique, j&apos;ai effectué quelques stages pour mettre en pratique mes compétences techniques. Et j&apos;ai aussi travaillé en freelance, pour avoir plus d&apos;expérience et surtout développer mon savoir être. En termes d'autoformation, j&apos;ai plusieurs certifications dans différents domaines (Backend, Frontend).</p>
+          <p className='text-[13px] first-letter:uppercase first-line-padding-[20px] p-[20px] pt-[45px]'>Alors, Je suis Mohamed EDDAHMANI, j&apos;ai 25 ans, et je suis actuellement développeur full stack. Au cours du parcours académique, j&apos;ai effectué quelques stages pour mettre en pratique mes compétences techniques. Et j&apos;ai aussi travaillé en freelance, pour avoir plus d&apos;expérience et surtout développer mon savoir être. En termes d&apos;autoformation, j&apos;ai plusieurs certifications dans différents domaines (Backend, Frontend).</p>
         </div>
       </div>
     </>
