@@ -66,7 +66,7 @@ const about = () => {
               <p className='  text-[12px] font-bold'>Freelance: <span className='inline text-xxs'>Disponible</span></p>
             </span>
           </div>
-          <p className='text-[13px] first-letter:uppercase first-line-padding-[20px] p-[20px] pt-[45px]'>Alors, Je suis Mohamed EDDAHMANI, j'ai 25 ans, et je suis actuellement développeur full stack. Au cours du parcours académique, j'ai effectué quelques stages pour mettre en pratique mes compétences techniques. Et j'ai aussi travaillé en freelance, pour avoir plus d'expérience et surtout développer mon savoir être. En termes d'autoformation, j'ai plusieurs certifications dans différents domaines (Backend, Frontend).</p>
+          <p className='text-[13px] first-letter:uppercase first-line-padding-[20px] p-[20px] pt-[45px]'>Alors, Je suis Mohamed EDDAHMANI, j&apos;ai 25 ans, et je suis actuellement développeur full stack. Au cours du parcours académique, j&apos;ai effectué quelques stages pour mettre en pratique mes compétences techniques. Et j&apos;ai aussi travaillé en freelance, pour avoir plus d&apos;expérience et surtout développer mon savoir être. En termes d'autoformation, j&apos;ai plusieurs certifications dans différents domaines (Backend, Frontend).</p>
         </div>
       </div>
     </>

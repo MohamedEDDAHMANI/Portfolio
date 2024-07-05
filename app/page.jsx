@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className="font-semibold text-[40px]">
           Mohamed EDDAHMANI
         </h1>
-        <div className="text-[25px] flex items-center">I'm a
+        <div className="text-[25px] flex items-center">I&apos;m a
           <span className=" ml-2 text-accent">
             <Typewriter
               options={{
@@ -31,7 +31,7 @@ export default function Home() {
           </span>
         </div>
         <p>
-          Welcome to my world ,I am a web developer, I have a strong foundation in front-end & back-end development and am skilled in creating user-friendly and responsive web applications using React and its ecosystem.
+          Welcome to my world ,I am a web developer, I have a strong foundation in front-end &amp; back-end development and am skilled in creating user-friendly and responsive web applications using React and its ecosystem.
         </p>
         <a href="/CV_Mohamed_EDDAHMANI.pdf" download>
           <Button

@@ -33,7 +33,7 @@ const prejects = () => {
                 système de connexion sécurisé par jeton. Les utilisateurs peuvent ajouter,
                 supprimer et mettre à jour des données grâce aux opérations CRUD. Le backend
                 utilise Node.js, Express, et MongoDB, avec Redux pour une gestion efficace de
-                l'état</p>
+                l&apos;état</p>
             </div>
             <div className='w-full relative flex justify-end space-x-4 pr-[70px] mr-[70px] mt-[20px]'>
               <a className='absolute left-20 text-[25px]' href="">
