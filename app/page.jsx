@@ -13,7 +13,7 @@ export default function Home() {
     <main>
       <div className=" md:w-[70%] sm:w-full  h-[400px]  mt-[130px] md:pl-[70px] sm:pl-[30px]  lg:pl-10px">
         <h1 className="font-semibold text-[40px]">
-          Mohamed EDDAHMANI
+          Mohamed EDDAHMANI...
         </h1>
         <div className="text-[25px] flex items-center">I&apos;m a
           <span className=" ml-2 text-accent">
