@@ -1,5 +1,5 @@
-import Link from "next/link"
 import { Button } from "./ui/button"
+
 
 
 
@@ -11,7 +11,7 @@ import MobileNav from "./MobileNav"
 
 const header = () => {
     return (
-        <header className="py-6 xl:py-12 text-white fixed top-0 left-0 w-full z-50 shadow-md backdrop-blur-lg">
+        <header className="py-3 xl:py-12 text-white fixed top-0 left-0 w-full z-50 shadow-md backdrop-blur-lg">
             <div className="container mx-auto flex justify-between items-centre ">
 
                 {/* logo */}
@@ -22,7 +22,7 @@ const header = () => {
                 {/* desktop nav & hire me button */}
                 <div className="hidden lg:flex items-centre gap-8">
                     <Nav />
-                    <Button className="bg-accent text-black hover:border-inset border-2 border-transparent hover:text-accent hover:border-accent rounded-[20px]">Hire me</Button>
+                    <Button className=" h-[30px] bg-accent text-black hover:border-inset border-2 border-transparent hover:text-accent hover:border-accent rounded-[20px] my-auto">Hire me</Button>
 
                 </div>
 
