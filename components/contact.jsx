@@ -5,14 +5,14 @@ import { FaTelegramPlane } from "react-icons/fa";
 
 const contact = () => {
   return (
-    <>
+    <div>
       <div className='flex items-center'>
-        <span className='inline pr-5 pl-[150px] text-xsx'>Contact</span><hr className='w-[250px] h-[2px] text-accent '></hr>
+        <span className='inline pr-4 pl-[20px] text-xsx  || lg:pl-[100px]'>Contact</span><hr className='w-[150px] ml-[20px] h-[2px] text-accent '></hr>
       </div>
 
-      <div className='w-full h-[450px] flex'>
+      <div className='w-auto flex flex-col pb-[20px] || lg:flex-row'>
 
-        <div className='w-[35%] h-full flex flex-col justify-center items-center gap-[40px]'>
+        <div className='h-auto flex flex-col justify-center items-center gap-[40px] || lg:w-[40%]'>
           <div className=' w-[250px] flex'>
             <div className='bg-green-300 w-[50px] h-[50px] mt-[12px] flex justify-center items-center rounded-full '>
               <CiLocationOn className='text-[35px]' />
@@ -42,8 +42,8 @@ const contact = () => {
           </div>
         </div>
 
-        <div className='w-[65%] h-full flex justify-center items-center'>
-          <div className='w-[80%] h-[75%] rounded-[20px] border border-accent px-[20px] py-[10px]'>
+        <div className='h-auto flex justify-center items-center pt-[20px] || lg:w-[60%]'>
+          <div className='w-[80%]  rounded-[20px] border border-accent px-[20px] py-[10px]'>
             <div className='flex space-x-4 mb-2'>
               <div className='w-1/2'>
                 <h1 className='text-[14px] font-semibold mb-1'>Username</h1>
@@ -72,7 +72,7 @@ const contact = () => {
 
 
       </div>
-    </>
+    </div>
   )
 }
 

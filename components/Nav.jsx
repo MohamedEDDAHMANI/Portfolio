@@ -1,25 +1,25 @@
 "use client"
 
-import { usePathname } from "next/navigation"
 import { Link as ScrollLink } from 'react-scroll'
+import { usePathname } from "next/navigation"
 
 
 const links = [
     {
         name: "Home",
-        path: "/"
+        path: "Home"
     },
     {
         name: "About",
-        path: "/About"
+        path: "about"
     },
     {
         name: "Project",
-        path: "/Project"
+        path: "project"
     },
     {
         name: "Contact",
-        path: "/Contact"
+        path: "contact"
     },
 ]
 
@@ -28,11 +28,18 @@ const Nav = ({ className }) => {
     return (
         <nav className={`flex items-center gap-8 ${className}`}>
             {links.map((link, index) => {
+                const isHome = link.name === "Home";
+                const isActive = link.path === pathname;
+                const linkClass = isHome || isActive
+                    ? "text-accent border-b-2 border-accent"
+                    : "";
                 return (
-                    <ScrollLink key={index} className={`${link.path === pathname
-                            ? "text-accent border-b-2 border-accent"
-                            : ""
-                        } capitalize font-medium hover:text-accent transition-all`} >
+                    <ScrollLink 
+                        key={index} 
+                        to={link.path} 
+                        smooth={true}
+                        duration={500}
+                        className={`${linkClass} capitalize font-medium hover:text-accent transition-all cursor-pointer`} >
                         {link.name}
                     </ScrollLink>
                 )
